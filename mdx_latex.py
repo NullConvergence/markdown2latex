@@ -68,7 +68,7 @@ __version__ = '2.1'
 
 # do some fancy importing stuff to allow use to override things in this module
 # in this file while still importing * for use in our own classes
-import re
+import regex as re
 import sys
 import markdown
 import xml.dom.minidom
